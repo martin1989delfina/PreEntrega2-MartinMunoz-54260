@@ -21,9 +21,9 @@ body {
 }
 .imgindex {
         width: 50rem;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
+}
+.hp-img {
+    margin-left: -15px;
 }
 .boton-subir {
     display: flex;
