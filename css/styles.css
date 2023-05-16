@@ -15,6 +15,9 @@ body {
 .header {
     background-color: black;
 }
+.padre-index {
+    margin: auto;
+}
 .imgindex {
         width: 50rem;
         display: block;
