@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/backg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: aliceblue;
+}
+.header {
+    background-color: black;
+}
+.imgindex {
+        width: 50rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+.boton-subir {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 10px solid rgba(30,74,39,1);
+    width: 30%;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    padding: 2px;
+    background-color: rgb(186, 201, 194);
+    border-radius: 20px;
+}
+    @media (min-width: 786px) {
+        .boton-subir{
+        width: 16%;
+        }
+        .botonSubir {
+            font-size: 25px;
+        }
+    }
+.botonSubir a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 2px;
+}
+.footer {
+    text-align: center;
+    font-size: 10px;
+}
+.derechos {
+        font-size: 10px;
+    }
+@media (min-width: 786px) {
+    .derechos {
+        font-size: 15px;
+    }
+    .footer {
+        font-size: 15px;
+    }
+}
+.redes {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+.redes-boton img {
+    border-radius: 100%;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    padding: 2px;
+        
+}
+@media (min-width: 786px){
+    .redes {
+        flex-direction: column;
+        position: fixed;
+        top: 70%;
+        right: 3%;
+        padding: 3px;
+        width: 65px;
+}
+}
+.img-index {
+margin: 15px;
+-webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+-moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+border-radius: 5%;
+}
+.hijo-index {
+padding: 20px;
+}
+.index-h1 {
+    text-align: center;
+    font-size: 50px;
+}
+@media (min-width: 786px) {
+.index-parrafos{
+    font-size:23px ;
+    padding: 5px;
+}
+}
+.mainBiografia {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.tituloBiografia {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+.textoBiografia {
+    text-align: left;
+    padding: 20px;
+    font-size: 1rem;
+}
+.iframeBiografia {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width:50%;
+    height: 50%;
+    background-color: black;
+    border-radius: 10%;
+    margin-bottom: 4rem;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+-moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+}
+@media (min-width: 786px) {
+    .iframeBiografia {
+        width: auto;
+    }
+    .textoBiografia {
+        padding: 30px;
+        font-size: 1.2rem;
+    }
+}
+.mainLibros {
+    padding: 20px;
+    font-size: 1.2rem;
+    margin: auto;
+    }
+.librosTitulo {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3.2rem;
+}
+.card {
+    width: 240px;
+    height: 420px;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    margin-bottom: 10px;
+}
+.card-img-top {
+    width: 70%;
+    margin-top: 10px;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+}
+.section-card {
+    padding: 20px;
+}
+@media (min-width: 786px) {
+    .section-card {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+}
+.main-bestiario {
+    padding: 20px;
+}
+.titulo-bestiario {
+    text-align: center;
+}
+.formularioContacto {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+.tituloContacto{
+    text-align: center;
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+.nym {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.correoE {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.enviarLimpiar {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+}
+.text-area {
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    background-color: rgb(19, 47, 24);
+    margin-left: 30px;
+    color: aquamarine;
+}
+.text-area2 {
+    -webkit-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    -moz-box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    box-shadow: 0px 0px 31px 11px rgba(30,74,39,1);
+    background-color: rgb(19, 47, 24);
+    color: aquamarine;
+}
+.botones-2 {
+    font-size: 30px;
+}
